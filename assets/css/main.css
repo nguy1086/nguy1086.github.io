@@ -2592,10 +2592,10 @@ input, select, textarea {
 
 		.carousel article {
 			display: inline-block;
-			width: 18em;
+			width: auto;
 			background: #8a8780;/*#fff*/
 			text-align: center;
-			padding: 0 1em 3em 1em;
+			padding: 0 1.4em 2em 1.4em;
 			margin: 0 2em 0 0;
 			white-space: normal;
 			opacity: 1.0;
@@ -2603,6 +2603,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.75s ease-in-out;
 			-ms-transition: opacity 0.75s ease-in-out;
 			transition: opacity 0.75s ease-in-out;
+			font-size: 4cqw;
 		}
 
 			.carousel article.loading {
@@ -2614,12 +2615,19 @@ input, select, textarea {
 				left: -1em;
 				top: 0;
 				width: auto;
-				margin-right: -2em;
-				margin-bottom: 3em;
+				height: auto;
+				 margin-right: -2.6em;
+				margin-left: -0.6em;
+				margin-bottom: 1em;
 			}
 
 			.carousel article p {
 				text-align: center;
+			}
+
+			.carousel article a {
+				font-size: 3.5cqw;
+				overflow: hidden;
 			}
 
 /* Wide */
